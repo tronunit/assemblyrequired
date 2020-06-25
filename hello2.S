@@ -8,7 +8,7 @@
 main: 
         ldr     r0, =fmt1
         ldr     r1, =alpha
-        ldr     r1, [r1]
+        ldrb     r1, [r1]
         bl printf
         bl exit 
 

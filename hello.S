@@ -7,6 +7,7 @@
 
         .text
         .global main
+        .print " Hi did it do it"
 
 main: 
         ldr r0, =hello

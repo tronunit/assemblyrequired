@@ -25,7 +25,7 @@ alpha2:
         .string "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 numstr: 
         .string "12345678901234567890"
-fmt1:   .string "%s \n"
+fmt1:   .string "%i \n"
 fmt2:   .string "%s \n %s \n"
 fmt3:   .string "%s \n %s \n %s \n"
 

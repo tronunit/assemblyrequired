@@ -7,7 +7,8 @@
 
         .text
         .global main
-        .print " Hi did it do it"
+        @ .print " Hi did it do it" directive from gas manual 
+        @ claims to print while assembling. Did not. 
 
 main: 
         ldr r0, =hello

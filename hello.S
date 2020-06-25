@@ -12,13 +12,13 @@ main:
         ldr r0, =hello
         bl printf
         bl exit
-        
+
 
 
 
 
         .data
-hello: .string "Hello, World"
+hello: .string "Hello, World\n"
 
 
 

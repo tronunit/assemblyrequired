@@ -43,6 +43,15 @@ http://bob.cs.sonoma.edu/IntroCompOrg-RPi/sec-varstack.html
 
 
 ***
+# subtract to add and add to subtract
+### welcome to the stack frame
+## the stack *grows* down and *shrinks* up
+## negative offsets are going towards/adding to the "top" of the stack
+## adding to an address goes toward the "bottom" of the stack
+
+## free store/ heap memory addresses are the opposite. 
+## same with things stored in .data
+
 ## indexing/incrementing in addressing
 * armv7 has some complicated addressing syntax 
 
